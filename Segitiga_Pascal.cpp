@@ -8,12 +8,10 @@ int faktorial(int n) {
 	while (i <= n) {
 		a = a * i;
 		i++;
-
 	}
-
 	return a;
-
 }
+
 
 int main(){
 	int b;
@@ -27,13 +25,12 @@ int main(){
 			cout << " ";
 		}
 	
-
 		for (int j = 0; j <= i; j++) {
 			cout << faktorial(i) / (faktorial(j) * faktorial(i - j)) << " ";
-
 		}
 		cout << endl;
-
+		
 	}
 	return 0;
+	
 }
