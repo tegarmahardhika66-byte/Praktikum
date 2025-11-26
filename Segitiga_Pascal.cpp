@@ -20,7 +20,7 @@ int main(){
 	cin >> b;
 
 	for (int i = 0; i < b; i++) {
-		//spasi pada tanda kutip agar berbentuk seperti segitiga
+		//spasi pada tanda kutip agar berbentuk seperti segitiga mas bro(sepaham saya gitu mas)
 		for (int j = 0; j < b - i - 1; j++) {
 			cout << " ";
 		}
@@ -34,3 +34,4 @@ int main(){
 	return 0;
 	
 }
+
